@@ -4,6 +4,7 @@
  * Creates a MIDI file that plays the C scale.
  */
 #include <stdio.h>
+
 #include "midi.h"
 
 int main(void)

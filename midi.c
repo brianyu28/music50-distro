@@ -5,11 +5,11 @@
 #include <stdlib.h>
 #include <string.h>
 
+#include "midi.h"
+
 #define NOTE_START 0x90
 #define NOTE_END 0x80
 #define NOTE_VELOCITY 0x7f
-
-#include "midi.h"
 
 uint8_t note_repr(char key, char accidental, int octave);
 void put_vlv(unsigned long value, FILE *f);
